@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
@@ -31,7 +32,15 @@
 </template>
 
 <script>
-export default {
+// export  default {
+//   data(){
+//     return{
+//       msg:'来自哪的你NB'
+//     }
+//   }
+// }
+//将组件映射成标签供别人使用
+export default { //默认暴露
   name: 'HelloWorld',
   props: {
     msg: String

@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!--<img alt="Vue logo" src="./assets/logo.png">-->
+    <img src="./assets/1552032550(1).jpg" alt="我是周凯哦" height="409" width="409"/>
+    <HelloWorldZks></HelloWorldZks>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import HelloWorldZks from './components/HelloWorldZk.vue'
 export default {
   name: 'app',
-  components: {
-    HelloWorld
+  components: {   //将组件映射成标签来使用
+    HelloWorldZks
   }
 }
 </script>
