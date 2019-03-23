@@ -43,7 +43,10 @@
 export default { //默认暴露
   name: 'HelloWorld',
   props: {
-    msg: String
+    msg: {
+      type:String,
+      request:true
+    }
   }
 }
 

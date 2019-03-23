@@ -10,7 +10,7 @@
 import HelloWorldZks from './components/HelloWorldZk.vue'
 export default {
   name: 'app',
-  components: {   //将组件映射成标签来使用
+  components: {   //将组件映射成标签来使用   onshift 传递点击事件对象
     HelloWorldZks
   }
 }
